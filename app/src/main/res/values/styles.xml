@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:titleTextStyle">@style/AppTheme.ActionBar.TextStyle</item>
+        <item name="android:subtitleTextStyle">@style/AppTheme.ActionBar.TextStyle</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_menu_up</item>
+    </style>
+
+    <style name="AppTheme.ActionBar">
+        <item name="android:titleTextStyle">@style/AppTheme.ActionBar.TextStyle</item>
+    </style>
+
+    <style name="AppTheme.ActionBar.TextStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>
